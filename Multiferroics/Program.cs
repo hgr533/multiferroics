@@ -50,7 +50,7 @@ public class Program
         });
 
         var tweakedOptimizer = new MultiferroicOptimizer(ApplicationType.Custom);
-        // Use the tweaked material...
+        tweakedOptimizer.OptimizeForApplication();
     }
 
     //What I changed and why
@@ -64,4 +64,6 @@ public class Program
     //Create the missing folder path or update your NuGet fallback folders so the path is valid.
     //Update your NuGet configuration or environment to point to a valid packages folder (set the __NUGET_PACKAGES__ environment variable or adjust the machine/user nuget.config), then run __dotnet restore__ or use __Build > Restore NuGet Packages__ in Visual Studio.
     //The code fixes above remove the C# compile errors; the NuGet error must be fixed separately in the environment.
+    //-gitpilot
+
 }
